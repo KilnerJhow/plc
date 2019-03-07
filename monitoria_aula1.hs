@@ -43,3 +43,6 @@ emprestado ((x,y):z) l | l == y = True
 getBancoDados :: BancoDados -> String --Como acessar uma "variável" em haskell
 
 getBancoDados ((x,y):z) = x
+
+--Show transforma um inteiro em uma string
+--read transforma uma string em um tipo definido (int, double)
