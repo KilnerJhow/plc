@@ -37,5 +37,5 @@ paraDireita n m = "." ++ (paraDireita (n - 1) m)
 
 -- imprimeTabela n = putStr(cabecalho ++ imprimeSemanas n ++ imprimeTotal n ++ imprimeMedia n)
 
-cabecalho :: Int -> IO
-cabecalho n = show n
+-- cabecalho :: Int -> IO
+-- cabecalho n = show n
