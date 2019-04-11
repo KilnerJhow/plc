@@ -20,6 +20,7 @@ decode x (a : as) | [a] >= "0" && [a] <= "9" = (buscaDicionario x (read [a]:: In
 
 buscaDicionario :: Dicionario-> Int -> String
 
+--poderia ser usado também como : ((n,s):ns) que representa a tupla
 buscaDicionario [] _ = ""
 buscaDicionario x a | fst (head x) == a = snd (head x)
                     | otherwise = buscaDicionario (tail x) a
