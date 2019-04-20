@@ -5,6 +5,10 @@ data Command = Forward Int | Backward Int | TurnLeft | TurnRight
 data Direction = ToNorth | ToSouth | ToWest | ToEast
                 deriving (Eq, Show)
 
+type Direction_ = (Direction, Int)
+
+dir :: [Direction_]
+dir = [(ToNorth, 0), (ToWest, 1), (ToSouth, 2), (ToEast, 3)]
 
 faces :: Direction -> [Command] -> Direction
 
