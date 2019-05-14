@@ -1,3 +1,0 @@
-http://learnyouahaskell.com/chapters
-http://haskell.tailorfontela.com.br/starting-out
-if686ec
