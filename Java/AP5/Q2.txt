@@ -1,0 +1,2 @@
+Esses comandos possuem redigibilidade, já que permitem a utilização de outro modo de atribuir "x = x + 1", porém 
+comprometem a legibilidade, uma vez que x++, ++x e x += 1 podem confundir o leitor do código em sua primeira leitura.

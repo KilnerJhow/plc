@@ -1,0 +1,5 @@
+A resposta impressa no console será "sssss", pois o método equals compara os valores de cada objeto, 
+logo para r1 temos que o valor de a é igual ao de b, para r2 o mesmo acontece. Porém em r3 e r5 temos
+uma exceção, pois estamos comparando um objeto do tipo Integer com um tipo primitivo int, logo o 
+comparador "==" não funciona como esperamos, já que a classe Integer é do tipo wrapper e quando comparado
+"a == b" eles comparam os valores e não as referências de memória.
