@@ -1,5 +1,6 @@
 Classes abstratas são aquelas que possuem pelo menos um método abstrato, podem ter códigos em seus métodos e podem ter constantes estáticas
 e de instância. Interfaces são classes abstratas onde todos os métodos são abstratos, não possuindo nenhum código. As classes abstratas são herdadas
-por uma outra classe, servindo como um modelo para a classe que a herdou, porém como Java não possui herança múltipla, as interfaces entram para 
-corrigir esse problema. A interface é como um contrato, a classe que a implementar deve especificar todos os métodos descritos na interface, ela é
-usada como um padrão de projeto e que pode facilitar a escrita de código. 
+por uma outra classe, servindo como um modelo para a classe que a herdou, enquanto interface é implementada e a classe que a implementou deve ter todos
+os métodos implementados. Classes abstratas são usadas quando é necessário um reuso de código mas um método vai ser diferente para cada classe que a herdar.
+Interfaces servem para padrões de projeto, já que uma classe que implementa uma interface necessita ter todas os métodos da interface, obrigando assim o
+programador a seguir um padrão.

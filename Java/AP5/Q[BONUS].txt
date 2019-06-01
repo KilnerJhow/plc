@@ -1,0 +1,2 @@
+Não e Sim, Java não permite uma herança múltipla, pois uma classe pode ter apenas uma superclasse. Porém uma classe pode implementar diversas interfaces,
+servindo assim como herança múltipla.
